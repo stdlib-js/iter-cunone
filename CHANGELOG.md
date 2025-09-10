@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-09-10)
 
 <section class="features">
 
@@ -34,6 +34,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`33d711b`](https://github.com/stdlib-js/stdlib/commit/33d711b32194fa35075481f408444ce4bb48a32d) - **docs:** add missing forward slashes to return annotations _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
 -   [`783c5d6`](https://github.com/stdlib-js/stdlib/commit/783c5d60fa197f8fa6a7eedc2497d610e541f6cb) - **feat:** add `iter/cunone` [(#2978)](https://github.com/stdlib-js/stdlib/pull/2978 ) _(by Aditya Sapra, Philipp Burckhardt)_
 
