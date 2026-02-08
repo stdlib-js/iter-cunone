@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterCuNone from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cunone@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-cunone/tags). For example,
+
+```javascript
 import iterCuNone from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cunone@v0.1.1-esm/index.mjs';
 ```
 
@@ -119,7 +124,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@esm/index.mjs';
-import iterCuNone from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cunone@v0.1.1-esm/index.mjs';
+import iterCuNone from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cunone@esm/index.mjs';
 
 function threshold( r ) {
     return ( r > 0.95 );
